@@ -1,0 +1,44 @@
+# Never commit movies or conversion output
+*.mkv
+*.mp4
+*.m4v
+*.avi
+*.mov
+*.wmv
+*.flv
+*.webm
+*.ts
+*.m2ts
+*.mts
+*.mpg
+*.mpeg
+*.vob
+*.ogv
+*.3gp
+*.divx
+*.xvid
+*.rmvb
+*.asf
+*.f4v
+*.srt
+*.ass
+*.sup
+*.part
+
+# Bundled FFmpeg binaries (users install their own)
+ffmpeg.exe
+ffprobe.exe
+bin/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS / editor clutter
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.idea/

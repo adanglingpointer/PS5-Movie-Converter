@@ -1,0 +1,5 @@
+* text=auto
+# Windows batch files must keep CRLF line endings to run reliably
+*.bat text eol=crlf
+*.py  text eol=lf
+*.md  text eol=lf
